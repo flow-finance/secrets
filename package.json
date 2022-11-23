@@ -29,16 +29,11 @@
     "engine": "12",
     "license": "MIT",
     "dependencies": {
-        "aws-sdk": "^2.1076.0",
+        "@aws-sdk/client-secrets-manager": "^3.216.0",
         "js-yaml": "^3.14.0",
         "minimist": "^1.2.6"
     },
     "devDependencies": {
         "mocha": "^9.2.0"
-    },
-    "bin": {
-        "create-secrets": "./bin/create-secrets.js",
-        "delete-secrets": "./bin/delete-secrets.js",
-        "get-config": "./bin/get-config.js"
     }
 }
